@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+.page{
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.loading{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, .2);
+  z-index: 999;
+  text-align: center;
+  padding-top: 200px;
+}
